@@ -9,17 +9,25 @@
     <link rel="stylesheet" href="bs/css/bootstrap.css">
 
 </head>
-<body style="background-color: black;">
+<body>
 
 <div class="container">
     <div class="row">
-        <div class="col-md-4">
-            <?php include 'primeiroGrafico.php' ?>
+        <div class="col-md-6">
+            <?php include 'terceiroGrafico.php' ?>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <?php include 'segundoGrafico.php' ?>
         </div>
             
+    </div>
+</div>
+<div class="container">
+    <div class="col-lg-12" style="background-color: black;">
+    <div style="margin: -120px;">
+    </div>
+
+    <?php include 'primeiroGrafico.php' ?>
     </div>
 </div>
 
